@@ -1,0 +1,32 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333; /* لون الخلفية */
+    color: #fff; /* لون النص */
+    padding: 20px; /* مساحة داخلية */
+    text-align: center; /* توسيط النص */
+    position: relative; /* لجعل الفوتر ثابت */
+}
+
+.footer h2 {
+    margin-bottom: 10px; /* مسافة أسفل العنوان */
+}
+
+.footer-links {
+    list-style-type: none; /* إزالة التعداد */
+    padding: 0; /* إزالة الحشو */
+}
+
+.footer-links li {
+    margin: 10px 0; /* مسافة بين العناصر */
+}
+
+.footer-links a {
+    color: #fff; /* لون الروابط */
+    text-decoration: none; /* إزالة التسطير */
+    transition: color 0.3s ease; /* تأثير التمرير */
+}
+
+.footer-links a:hover {
+    color: #0066cc; /* تغيير اللون عند التمرير */
+}

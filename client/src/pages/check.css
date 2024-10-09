@@ -1,0 +1,74 @@
+/* check-code.css */
+
+/* الـ div الرئيسي الذي يحتوي على الصفحة */
+.check-code-page {
+    background-color: #ffffff; /* لون الخلفية أبيض */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* تغطية كامل الشاشة */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .check-code-container {
+    background-color: #000000; /* لون الخلفية داخل الـ div أسود */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px; /* تحديد أقصى عرض للـ div */
+    text-align: center;
+  }
+  
+  .check-code-title {
+    color: #ffffff; /* لون النص أبيض */
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .check-code-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .check-code-input {
+    padding: 0.75rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background-color: #000; /* لون الحقل أسود */
+    color: #fff; /* لون النص داخل الحقل أبيض */
+    width: 100%;
+    max-width: 300px; /* عرض الحقل */
+  }
+  
+  .check-code-button {
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .check-code-button:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+  }
+  
+  .check-code-button:hover {
+    background-color: #555;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 1rem;
+  }
+  
+  .loading-message {
+    color: #333;
+    margin-top: 1rem;
+  }

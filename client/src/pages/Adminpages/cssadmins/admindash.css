@@ -1,0 +1,40 @@
+/* تنسيق الصفحة الرئيسية */
+.admin-dashboard-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a4141; /* خلفية داكنة */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .admin-dashboard-title {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  /* تنسيق الأزرار */
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }

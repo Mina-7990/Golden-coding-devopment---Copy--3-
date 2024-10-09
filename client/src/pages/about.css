@@ -1,0 +1,70 @@
+/* about-us.css */
+
+/* تصميم صفحة "About Us" */
+.about-us-page {
+    background-color: #ffffff; /* لون الخلفية أبيض */
+    padding: 2rem; /* إضافة مساحة حول المحتوى */
+    font-family: 'Arial', sans-serif; /* الخط المستخدم */
+    color: #333; /* لون النص */
+    min-height: 100vh; /* لتغطية كامل الشاشة */
+}
+
+/* تصميم العناوين */
+.about-us-page h1 {
+    font-size: 2.5rem; /* حجم الخط للعناوين الرئيسية */
+    margin-bottom: 1rem; /* فراغ أسفل العنوان */
+    text-align: center; /* توسيط النص */
+}
+
+.about-us-page h2 {
+    font-size: 1.8rem; /* حجم الخط للعناوين الفرعية */
+    margin-top: 1.5rem; /* فراغ أعلى العنوان الفرعي */
+}
+
+/* تصميم النصوص */
+.about-us-page p {
+    font-size: 1.2rem; /* حجم النص */
+    line-height: 1.5; /* ارتفاع السطر */
+    margin-bottom: 1rem; /* فراغ أسفل النص */
+}
+
+/* تنسيق الروابط الاجتماعية */
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-bottom: 0.5rem;
+}
+
+.social-links a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* تصميم قائمة التواصل */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+ul li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}

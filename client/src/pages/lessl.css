@@ -1,0 +1,105 @@
+/* lessons-list.css */
+
+/* نستخدم class خاصة بصفحة الدروس */
+.lessons-list-container {
+    background-color: #000000; /* لون خلفية الصفحة الداكن */
+    color: #ffffff; /* النص باللون الأبيض */
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh; /* للتأكد من تغطية الشاشة بالكامل */
+  }
+  
+  .lessons-list-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  .lessons-l-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #e0e0e0;
+  }
+  
+  .lessons-l-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lesson-l-item {
+    margin-bottom: 1.5rem;
+  }
+  
+  .lesson-l-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .lesson-l-box {
+    background-color: #2a2a2a; /* خلفية البوكس */
+    border: 1px solid #333;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.2s, background-color 0.3s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .lesson-l-box:hover {
+    transform: translateY(-5px);
+    background-color: #3d3d3d;
+  }
+  
+  .lesson-l-title {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .lesson-l-description {
+    font-size: 1rem;
+    color: #b0b0b0;
+  }
+  
+  .error-l-message {
+    color: #f44336;
+    text-align: center;
+  }
+  
+  .success-l-message {
+    color: #4caf50;
+    text-align: center;
+  }
+
+  .cover-container {
+    display: flex;
+    justify-content: center; /* لمحاذاة الصورة في الوسط */
+    margin: 10px 0; /* إضافة بعض الهوامش */
+  }
+  
+  .lesson-l-image {
+    width: 100%; /* أو أي حجم معين */
+    max-width: 300px; /* الحد الأقصى للعرض */
+    height: auto; /* للحفاظ على نسبة العرض إلى الارتفاع */
+    border-radius: 8px; /* زوايا مدورة */
+  }
+
+  .lesson-cover-l-container {
+    margin-top: 10px; /* مساحة فوق الغلاف */
+    border: 1px solid #ddd; /* حدود خفيفة حول الغلاف */
+    border-radius: 8px; /* زوايا دائرية */
+    overflow: hidden; /* إخفاء أي محتوى يتجاوز الحدود */
+    width: 100%; /* عرض الحاوية */
+    display: flex; /* استخدام الفليكس لتوسيع المساحة */
+    justify-content: center; /* تمركز المحتوى أفقيًا */
+    align-items: center; /* تمركز المحتوى رأسيًا */
+    height: 200px; /* ارتفاع ثابت للحاوية */
+  }
+  
+  .lesson-cover-image {
+    max-width: 100%; /* عرض الصورة ليكون 100% من الحاوية */
+    max-height: 100%; /* ارتفاع الصورة ليكون 100% من الحاوية */
+    border-radius: 8px; /* إضافة زوايا دائرية للصورة */
+  }

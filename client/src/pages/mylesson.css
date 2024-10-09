@@ -1,0 +1,37 @@
+/* my-lesson-list.css */
+
+/* الخلفية العامة للصفحة */
+.my-lesson-list-page {
+    background-color: #ffffff; /* لون الخلفية أبيض */
+    padding: 2rem; /* إضافة مساحة حول المحتوى */
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh; /* لضمان تغطية كامل الشاشة */
+  }
+  
+  /* تصميم صناديق الدروس */
+  .lesson-box {
+    background-color: #000000; /* لون الصندوق أسود */
+    color: #ffffff; /* لون النص أبيض */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .lesson-box:hover {
+    transform: scale(1.05); /* تأثير تكبير عند التمرير فوق الصندوق */
+  }
+  
+  .lesson-k-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .lesson-k-description {
+    font-size: 1rem;
+    color: #d3d3d3; /* لون النص الوصفي */
+  }
